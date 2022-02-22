@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    font-family: 'Yellowtail', cursive;
+    background-color: rgb(211, 178, 157);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title {
+    color: rgb(37, 26, 20);
+    text-align: center;
+    font-size: 4rem;
+}
+
+#bean {
+    transform: rotate(-30deg);
+}
